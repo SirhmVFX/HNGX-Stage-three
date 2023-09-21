@@ -121,6 +121,9 @@ function ImageGallery() {
               </div>
             </DragDropContext>
           </section>
+          <footer>
+            <h5>Built by The Fullstack Mechanic &copy; 2023</h5>
+          </footer>
         </>
       )}
     </div>

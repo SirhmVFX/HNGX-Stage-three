@@ -26,7 +26,6 @@ function SignUp() {
       <section className="login">
         <div className="leftside">
           <img src="/images/login.jpeg" alt="loginimage" />
-          <h1>Pictures are memories</h1>
         </div>
         <div className="authForm">
           <div>
@@ -53,12 +52,12 @@ function SignUp() {
               />
             </div>
             <div className="authButton">
-              <Link to="/" className="button">
-                Sign In
-              </Link>
               <button type="submit" className="button">
                 Sign Up
               </button>
+              <Link to="/" className="">
+                Already have an account? Sign In
+              </Link>
             </div>
           </form>
         </div>

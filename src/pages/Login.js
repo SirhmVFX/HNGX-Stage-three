@@ -23,10 +23,6 @@ function Login() {
   return (
     <>
       <section className="login">
-        <div className="leftside">
-          <img src="/images/image.jpg" alt="loginimage" />
-          <h1>We store your captured memories</h1>
-        </div>
         <div className="authForm">
           <div>
             <h1>Sign In </h1>
@@ -55,11 +51,14 @@ function Login() {
               <button value="submit" className="button">
                 Sign In
               </button>
-              <Link to="/sign-up" className="button">
-                Sign Up
+              <Link to="/sign-up" className="">
+                Don't Have an account yet? Sign Up
               </Link>
             </div>
           </form>
+        </div>
+        <div className="leftside">
+          <img src="/images/image.jpg" alt="loginimage" />
         </div>
       </section>
     </>

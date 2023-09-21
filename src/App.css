@@ -52,7 +52,7 @@ input {
 .leftside h1 {
   position: absolute;
   top: 10%;
-  left: 5%;
+  right: 5%;
   width: 30%;
   color: black;
 }
@@ -83,6 +83,7 @@ form {
 .authButton {
   display: flex;
   gap: 1rem;
+  flex-direction: column;
 }
 
 .button {
@@ -98,8 +99,8 @@ form {
 
 .button-2 {
   padding: 1rem 2rem;
-  background-color: black;
-  color: rgb(173, 173, 173);
+  background-color: rgb(155, 155, 155);
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 10px;
   width: 100%;
@@ -162,6 +163,15 @@ h1 {
   /* Adjust the gap between items */
   width: 80%;
   margin-inline: auto;
+  padding: 3rem ;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
 }
 
 .img {
